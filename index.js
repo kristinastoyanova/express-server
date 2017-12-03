@@ -3,6 +3,10 @@ const bodyParser = require('body-parser');
 const app = express();
 //var request = require('request');
 
+app.get('/', (req, res) => {
+    res.send('Simple Express App')
+});
+
 let newJson;
 
 app.use(bodyParser.json());
