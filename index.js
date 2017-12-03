@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
-var request = require('request');
+//var request = require('request');
 
 let newJson;
 
@@ -50,5 +50,5 @@ app.post('/', (req, res) => {
 const PORT = process.env.PORT || 5000;
 app.listen(PORT);
 
-//https://shrouded-thicket-50305.herokuapp.com/ | https://git.heroku.com/shrouded-thicket-50305.git
+//https://shrouded-thicket-50305.herokuapp.com/
 
